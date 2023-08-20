@@ -1,0 +1,14 @@
+#!/bin/bash
+i=1
+for file in *
+do
+    if [ -f "$file" ]
+    then
+        mv "$file" "$i"
+        i=$((i+1))
+        if [ $i -gt 1000 ]
+        then
+            break
+        fi
+    fi
+done

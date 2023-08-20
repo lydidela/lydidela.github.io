@@ -1,0 +1,25 @@
+baseURL = "changeME!"
+languageCode = "zh-cn"
+title = "Люди Дела"
+theme = "github-style"
+googleAnalytics = ""
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Люди Дела"
+  description = "Проект Юные Программисты (Школа 1770)"
+  email = "sergo@epifantsew.ru"
+  url = "https://vk.com/ludydela?w=page-83710188_53436848"
+  keywords = "blog"
+  lastmod = true
+  userStatusEmoji = "👨‍💻"
+  favicon = "/images/github.png"
+  location = "Школа 1770"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://vk.com/ludydela"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
